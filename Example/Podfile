@@ -1,10 +1,11 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
 
 target 'TBFormFactory_Example' do
   pod 'TBFormFactory', :path => '../'
-
+  pod 'TBTopPagesController'
   target 'TBFormFactory_Tests' do
     inherit! :search_paths
 

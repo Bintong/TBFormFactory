@@ -1,0 +1,23 @@
+PODS:
+  - TBFormFactory (0.1.0)
+  - TBTopPagesController (0.1.2)
+
+DEPENDENCIES:
+  - TBFormFactory (from `../`)
+  - TBTopPagesController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TBTopPagesController
+
+EXTERNAL SOURCES:
+  TBFormFactory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TBFormFactory: 9376e31a4c6f3ad3aa015897f94e4cad9f26396d
+  TBTopPagesController: 4b6e9aef397a3b0f08f9fa08b38f1d4c855e1598
+
+PODFILE CHECKSUM: 369cd2d74ae4c1935fd70d07950d60265100decd
+
+COCOAPODS: 1.5.3

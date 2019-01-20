@@ -1,0 +1,6 @@
+framework module TBTopPagesController {
+  umbrella header "TBTopPagesController-umbrella.h"
+
+  export *
+  module * { export * }
+}
