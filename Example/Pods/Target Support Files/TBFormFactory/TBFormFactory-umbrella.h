@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "BaseRowFormer.h"
+#import "BaseRowFormItem.h"
+#import "UILabel+WPAdd.h"
+#import "UIView+WPCoordinate.h"
+#import "UIView+WPDrawLine.h"
 
 FOUNDATION_EXPORT double TBFormFactoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char TBFormFactoryVersionString[];
