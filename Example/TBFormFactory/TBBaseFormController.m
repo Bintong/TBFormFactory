@@ -46,6 +46,10 @@
     BaseRowFormItem *companyView = [BaseRowFormer buildNormalText:@"公司" placeHolder:@"请输入公司名称" target:self];
     [self.views addObject:companyView];
     
+    
+    BaseRowFormItem *infoLabel_1 = [BaseRowFormer buildNormalTextLabel:@"消息" subLabel:@"消息已打开" target:self];
+    [self.views addObject:infoLabel_1];
+    
 }
 
 - (void)buildListView {

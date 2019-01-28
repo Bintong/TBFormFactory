@@ -48,15 +48,18 @@ NS_ASSUME_NONNULL_BEGIN
  title Label text Color
  */
 @property (nonatomic, assign) UIColor *titleLabelColor;
+@property (nonatomic, assign) UIColor *subTitleLabelColor;
 @property (nonatomic, assign) UIColor *rowBackgroundColor;
 @property (nonatomic, assign) UIColor *bottomLineColor;
 //------------Line--------------------
 @property (nonatomic, assign) BOOL showLine;
-@property (nonatomic, assign) NSInteger leftOffSet;
-@property (nonatomic, assign) NSInteger rightOffSet;
+@property (nonatomic, assign) NSInteger line_leftOffSet;
+@property (nonatomic, assign) NSInteger line_rightOffSet;
 
 
 + (BaseRowFormItem *)buildNormalText:(NSString *)leftName placeHolder:(NSString *)placeHolder target:(id)sender;
+
++ (BaseRowFormItem *)buildNormalTextLabel:(NSString *)leftName subLabel:(NSString *)subTitle target:(id)sender;
 
 @end
 
