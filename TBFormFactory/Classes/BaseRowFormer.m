@@ -68,7 +68,7 @@
     contentField.font = [UIFont systemFontOfSize:14];
     [item addSubview:contentField];
 
-    if (former.leftInterval > 0) {
+    if (former.line_leftOffSet > 0) {
         [item bottomLineX:former.line_leftOffSet width:(kScreenWidth - former.line_leftOffSet) color:TBColorFromRGB(0xe1e6ed)];
     }
     
@@ -94,7 +94,7 @@
     subLabel.textAlignment = NSTextAlignmentRight;
     [item addSubview:subLabel];
     
-    if (former.leftInterval > 0) {
+    if (former.line_leftOffSet > 0) {
         [item bottomLineX:former.line_leftOffSet width:(kScreenWidth - former.line_leftOffSet) color:TBColorFromRGB(0xe1e6ed)];
     }
     

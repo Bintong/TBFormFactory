@@ -46,9 +46,20 @@
     BaseRowFormItem *companyView = [BaseRowFormer buildNormalText:@"公司" placeHolder:@"请输入公司名称" target:self];
     [self.views addObject:companyView];
     
-    
+    BaseRowFormer *former =  [BaseRowFormer sharedBaseRowFormer];
+    former.line_leftOffSet = 0;
     BaseRowFormItem *infoLabel_1 = [BaseRowFormer buildNormalTextLabel:@"消息" subLabel:@"消息已打开" target:self];
+    
     [self.views addObject:infoLabel_1];
+    
+    BaseRowFormItem *infoLabel_2 = [BaseRowFormer buildNormalTextLabel:@"状态" subLabel:@"开启或者关闭" target:self];
+    [self.views addObject:infoLabel_2];
+    
+    former.line_leftOffSet = 1;
+    BaseRowFormItem *infoLabel_3 = [BaseRowFormer buildNormalTextLabel:@"完成" subLabel:@"已经完成" target:self];
+    
+    [self.views addObject:infoLabel_3];
+
     
 }
 

@@ -56,6 +56,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger line_leftOffSet;
 @property (nonatomic, assign) NSInteger line_rightOffSet;
 
++ (BaseRowFormer *)sharedBaseRowFormer;
 
 + (BaseRowFormItem *)buildNormalText:(NSString *)leftName placeHolder:(NSString *)placeHolder target:(id)sender;
 
