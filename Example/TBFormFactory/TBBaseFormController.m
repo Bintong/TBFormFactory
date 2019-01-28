@@ -40,6 +40,7 @@
     [self.views addObject:ageView];
     
     BaseRowFormItem *phoneView =   [BaseRowFormer buildNormalText:@"联系方式" placeHolder:@"请输入联系方式" target:self];
+    phoneView.contentField.keyboardType =  UIKeyboardTypeNumberPad;
     [self.views addObject:phoneView];
     
     BaseRowFormItem *companyView = [BaseRowFormer buildNormalText:@"公司" placeHolder:@"请输入公司名称" target:self];
