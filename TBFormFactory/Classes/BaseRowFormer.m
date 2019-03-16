@@ -101,5 +101,14 @@
     return item;
 }
 
++ (BaseRowFormItem *)buildXZTextLabel:(NSString *)leftName subLabel:(NSString *)subTitle target:(id)sender {
+    BaseRowFormer *former = [BaseRowFormer sharedBaseRowFormer];
+    BaseRowFormItem *item = [[BaseRowFormItem alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 200)];
+    item.backgroundColor = [UIColor redColor];
+    
+    
+    return item;
+}
+
 
 @end

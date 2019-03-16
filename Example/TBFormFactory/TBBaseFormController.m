@@ -58,7 +58,12 @@
     former.line_leftOffSet = 1;
     BaseRowFormItem *infoLabel_3 = [BaseRowFormer buildNormalTextLabel:@"完成" subLabel:@"已经完成" target:self];
     
+    
+    
     [self.views addObject:infoLabel_3];
+    
+    BaseRowFormItem *xz = [BaseRowFormer buildXZTextLabel:nil subLabel:nil target:self];
+    [self.views addObject:xz];
 
     
 }
