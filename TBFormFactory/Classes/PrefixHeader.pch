@@ -9,6 +9,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import "BMWPCategory.h"
 
 //#import "NSBundle+Cocoapods.h"
 

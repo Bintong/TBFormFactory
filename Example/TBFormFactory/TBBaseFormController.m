@@ -8,11 +8,11 @@
 
 #import "TBBaseFormController.h"
 #import "TBNormalCell.h"
-#import "UIView+WPCoordinate.h"
 #import "BaseRowFormer.h"
-#define kScreenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
-#define kScreenHeight CGRectGetHeight([UIScreen mainScreen].bounds)
-#define getRectNavAndStatusHight  self.navigationController.navigationBar.frame.size.height+[[UIApplication sharedApplication] statusBarFrame].size.height
+
+//#define kScreenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
+//#define kScreenHeight CGRectGetHeight([UIScreen mainScreen].bounds)
+//#define getRectNavAndStatusHight  self.navigationController.navigationBar.frame.size.height+[[UIApplication sharedApplication] statusBarFrame].size.height
 
 
 @interface TBBaseFormController ()<UITableViewDelegate,UITableViewDataSource>

@@ -18,6 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
+  "prefix_header_file": "TBFormFactory/Classes/PrefixHeader.pch",
   "source_files": "TBFormFactory/Classes/**/*",
   "dependencies": {
     "TBToolCategory": [

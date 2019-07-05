@@ -62,7 +62,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		712D5AA39EB9FAAA924AF19A /* Pods-TBFormFactory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBFormFactory_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBFormFactory_Example/Pods-TBFormFactory_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C680D32FD62AB5C217133CB /* TBFormFactory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TBFormFactory.podspec; path = ../TBFormFactory.podspec; sourceTree = "<group>"; };
+		7C680D32FD62AB5C217133CB /* TBFormFactory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TBFormFactory.podspec; path = ../TBFormFactory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89115D6495AE8090A6CCC38B /* Pods-TBFormFactory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBFormFactory_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBFormFactory_Tests/Pods-TBFormFactory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A677BCD321F38FAB006632F4 /* TBBaseFormController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBBaseFormController.h; sourceTree = "<group>"; };
@@ -275,6 +275,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
