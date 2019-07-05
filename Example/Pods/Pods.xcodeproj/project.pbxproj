@@ -27,6 +27,7 @@
 		A63CDFA922CDD98800F1A9AA /* LMPickerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFA722CDD98800F1A9AA /* LMPickerManager.h */; };
 		A63CDFDB22CF18AC00F1A9AA /* LMTimeDateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFD922CF18AC00F1A9AA /* LMTimeDateManager.m */; };
 		A63CDFDC22CF18AC00F1A9AA /* LMTimeDateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFDA22CF18AC00F1A9AA /* LMTimeDateManager.h */; };
+		A63CDFDE22CF198800F1A9AA /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFDD22CF198100F1A9AA /* PrefixHeader.pch */; };
 		BD85DC8F50CCFE23267D1EFA1A70BAEC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 994E23BFCB57BCD435BDDBD2A19CA287 /* ReplaceMe.m */; };
 		C3999EA7510FE7FC2E8DA100EED2B83D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F6023ADA4C9BF251B576CC8E4A460258 /* ReplaceMe.m */; };
 		CE120D8FB20B71F14F78F8907AEE3FE0 /* BaseRowFormer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0A72B2818EC087C62701AF993B2638 /* BaseRowFormer.m */; };
@@ -90,6 +91,7 @@
 		A63CDFA722CDD98800F1A9AA /* LMPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMPickerManager.h; path = TBFormFactory/Classes/LMPickerManager.h; sourceTree = "<group>"; };
 		A63CDFD922CF18AC00F1A9AA /* LMTimeDateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMTimeDateManager.m; path = TBFormFactory/Classes/LMTimeDateManager.m; sourceTree = "<group>"; };
 		A63CDFDA22CF18AC00F1A9AA /* LMTimeDateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMTimeDateManager.h; path = TBFormFactory/Classes/LMTimeDateManager.h; sourceTree = "<group>"; };
+		A63CDFDD22CF198100F1A9AA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = TBFormFactory/Classes/PrefixHeader.pch; sourceTree = "<group>"; };
 		A8377C0BFDE979499D00D9FCFA7CD2A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A999C0D14D82627715B3B8C1C1106CB3 /* TBTopPagesController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBTopPagesController-dummy.m"; sourceTree = "<group>"; };
 		AC21BC598885D54F153614A2F8D1202B /* Pods-TBFormFactory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFormFactory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 		F8AA8702F98BD79D8EFCBBFB5E797FBC /* TBFormFactory */ = {
 			isa = PBXGroup;
 			children = (
+				A63CDFDD22CF198100F1A9AA /* PrefixHeader.pch */,
 				A63CDFDA22CF18AC00F1A9AA /* LMTimeDateManager.h */,
 				A63CDFD922CF18AC00F1A9AA /* LMTimeDateManager.m */,
 				A63CDFA722CDD98800F1A9AA /* LMPickerManager.h */,
@@ -340,6 +343,7 @@
 			files = (
 				00DE375F9087F63AE34AA5086CC142A4 /* BaseRowFormer.h in Headers */,
 				4D181B6E497AB37EF07FF6E3D651A908 /* BaseRowFormItem.h in Headers */,
+				A63CDFDE22CF198800F1A9AA /* PrefixHeader.pch in Headers */,
 				E7B2BF053E23AEBF81A65B28F70EE31B /* TBFormFactory-umbrella.h in Headers */,
 				A63CDFDC22CF18AC00F1A9AA /* LMTimeDateManager.h in Headers */,
 				A63CDFA922CDD98800F1A9AA /* LMPickerManager.h in Headers */,
