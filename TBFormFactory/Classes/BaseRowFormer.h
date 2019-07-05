@@ -62,7 +62,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (BaseRowFormItem *)buildNormalTextLabel:(NSString *)leftName subLabel:(NSString *)subTitle target:(id)sender;
 
-+ (BaseRowFormItem *)buildXZTextLabel:(NSString *)leftName subLabel:(NSString *)subTitle target:(id)sender;
+//+ (BaseRowFormItem *)buildDateSelectView:(nss)
+
+//+ (BaseRowFormItem *)buildXZTextLabel:(NSString *)leftName subLabel:(NSString *)subTitle target:(id)sender;
 
 @end
 

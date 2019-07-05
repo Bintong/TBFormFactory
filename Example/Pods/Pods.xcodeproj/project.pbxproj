@@ -12,23 +12,21 @@
 		0FAFF737B2EE4559FB44AA64FE2B1DA4 /* TBSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E06A9E33E16074D3D131E45128AE66B /* TBSegmentControl.m */; };
 		1C565261412FE1091D6F7688196FE700 /* TBTopPagesController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7C8BA5DDE0B14A3DE7ACB98ACE2A57 /* TBTopPagesController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EE7352EBDA31B68811753F84835608E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		206C1E105D03DB98E3DF3660A7E2DF6A /* UIView+WPDrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 02008D150E61D59AB39F9ECB929EE315 /* UIView+WPDrawLine.m */; };
-		20ADBB9FFBAF70A1CDCDC6841792F17B /* UIView+WPCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876BE4A1EC94E64BD483374E2B1B8F3D /* UIView+WPCoordinate.m */; };
 		2291CE1C6FCF25E7871647C2F85E9768 /* Pods-TBFormFactory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B722023453A51454EA9D61A88082322A /* Pods-TBFormFactory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25387C742E768E991F79C73B02C28C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		2987633337B0AB29F7CDC1C9DED315B2 /* TBFormFactory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9947934A6848BAEA3823C537F30FE22F /* TBFormFactory-dummy.m */; };
 		2B23606F3AAEB3A869597D1C1F88D7F8 /* Pods-TBFormFactory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F32A599CBC065FE551E398BCFEB54145 /* Pods-TBFormFactory_Tests-dummy.m */; };
 		3F8A5CD6F15354B67BA797EDA2B52C19 /* BaseRowFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFEDC96C89D19BC13C606DF0CAE1DAE /* BaseRowFormItem.m */; };
-		419A3079DD47C1657EA643EDC2C6B808 /* UILabel+WPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F1371B2A0D4B0746D7B71FC7D883BD85 /* UILabel+WPAdd.m */; };
 		4D181B6E497AB37EF07FF6E3D651A908 /* BaseRowFormItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F701896B966022C4A1F9D7A474CB66 /* BaseRowFormItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5583CD52F56AA763DEACA0DC52BF6424 /* UIView+WPCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = E72A3D410EEBA684D978DE9FF6F59901 /* UIView+WPCoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		565CB29BA8258AD1E37F335A8A15F974 /* Pods-TBFormFactory_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3B7DB3635BB1411CBDD405A3172FA6 /* Pods-TBFormFactory_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7033C519D59408E0EFFAA93E462813E2 /* Pods-TBFormFactory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C07CB989301593C164E243C51EEB41B /* Pods-TBFormFactory_Example-dummy.m */; };
 		7E63D0CC0694039B1560CB03CB7F2428 /* TBSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C43507C75A728E8D407B418B1BC16F /* TBSegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8120D06A53BDF9ADD23371F438DA424B /* TBTopMainController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7358F01515C2378221577CCB17BE59FD /* TBTopMainController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A61E3C630F657F3E895A497935DF442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9AECBD32C2EAD659846C1CA43D8190C3 /* UIView+WPDrawLine.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3F3F53A980FD8AA68ACD998FDF1F67 /* UIView+WPDrawLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C66C9B49A7992FBA7D3CBE6341BE771 /* UILabel+WPAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AADAF04C61BE70022873B410B1A6B91 /* UILabel+WPAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A63CDFA822CDD98800F1A9AA /* LMPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFA622CDD98800F1A9AA /* LMPickerManager.m */; };
+		A63CDFA922CDD98800F1A9AA /* LMPickerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFA722CDD98800F1A9AA /* LMPickerManager.h */; };
+		A63CDFDB22CF18AC00F1A9AA /* LMTimeDateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A63CDFD922CF18AC00F1A9AA /* LMTimeDateManager.m */; };
+		A63CDFDC22CF18AC00F1A9AA /* LMTimeDateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A63CDFDA22CF18AC00F1A9AA /* LMTimeDateManager.h */; };
 		BD85DC8F50CCFE23267D1EFA1A70BAEC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 994E23BFCB57BCD435BDDBD2A19CA287 /* ReplaceMe.m */; };
 		C3999EA7510FE7FC2E8DA100EED2B83D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F6023ADA4C9BF251B576CC8E4A460258 /* ReplaceMe.m */; };
 		CE120D8FB20B71F14F78F8907AEE3FE0 /* BaseRowFormer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0A72B2818EC087C62701AF993B2638 /* BaseRowFormer.m */; };
@@ -63,15 +61,13 @@
 
 /* Begin PBXFileReference section */
 		01D187A4D5A1D27B763375EABD50016A /* Pods-TBFormFactory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFormFactory_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		02008D150E61D59AB39F9ECB929EE315 /* UIView+WPDrawLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WPDrawLine.m"; path = "TBFormFactory/Classes/UIView+WPDrawLine.m"; sourceTree = "<group>"; };
-		09D4226C027F3322C2900B8810FD4ACE /* TBFormFactory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TBFormFactory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		09D4226C027F3322C2900B8810FD4ACE /* TBFormFactory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TBFormFactory.podspec; sourceTree = "<group>"; };
 		1CCD0E417A871FEBB23F16115412F2E6 /* Pods-TBFormFactory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFormFactory_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2D083F9676B1FF4DFF24BDCA42B1A1E7 /* Pods-TBFormFactory_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBFormFactory_Example-resources.sh"; sourceTree = "<group>"; };
 		30C71E00ED9E33817ABFAE61E6CEE2D7 /* TBTopPagesController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBTopPagesController-prefix.pch"; sourceTree = "<group>"; };
 		3AFEDC96C89D19BC13C606DF0CAE1DAE /* BaseRowFormItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseRowFormItem.m; path = TBFormFactory/Classes/BaseRowFormItem.m; sourceTree = "<group>"; };
 		42D15BFB9299341FE24ECEEF00D15FAB /* Pods-TBFormFactory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFormFactory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4A819D6DBB274329B0283F0C3955B63F /* Pods-TBFormFactory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBFormFactory_Tests.modulemap"; sourceTree = "<group>"; };
-		4AADAF04C61BE70022873B410B1A6B91 /* UILabel+WPAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+WPAdd.h"; path = "TBFormFactory/Classes/UILabel+WPAdd.h"; sourceTree = "<group>"; };
 		56D589C8338129EC4FE1C156CB8629D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C07CB989301593C164E243C51EEB41B /* Pods-TBFormFactory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBFormFactory_Example-dummy.m"; sourceTree = "<group>"; };
@@ -84,41 +80,41 @@
 		7D88A106030B7AB553015CB2A39ED038 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E06A9E33E16074D3D131E45128AE66B /* TBSegmentControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBSegmentControl.m; path = TBTopPagesController/Classes/TBSegmentControl.m; sourceTree = "<group>"; };
 		7E7580A9CAE5AB32BBA5C2702991484A /* Pods-TBFormFactory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBFormFactory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		876BE4A1EC94E64BD483374E2B1B8F3D /* UIView+WPCoordinate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WPCoordinate.m"; path = "TBFormFactory/Classes/UIView+WPCoordinate.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97BC8F6B7ECCC7A785F625257DA1F0D3 /* BaseRowFormer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseRowFormer.h; path = TBFormFactory/Classes/BaseRowFormer.h; sourceTree = "<group>"; };
 		9947934A6848BAEA3823C537F30FE22F /* TBFormFactory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBFormFactory-dummy.m"; sourceTree = "<group>"; };
 		994E23BFCB57BCD435BDDBD2A19CA287 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TBFormFactory/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		9BFC7C56925BE3F9DE3C7D291656B09A /* Pods-TBFormFactory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBFormFactory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9C2F2589B7C3B7A97C49F65972C25E0A /* TBFormFactory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBFormFactory-umbrella.h"; sourceTree = "<group>"; };
+		A63CDFA622CDD98800F1A9AA /* LMPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMPickerManager.m; path = TBFormFactory/Classes/LMPickerManager.m; sourceTree = "<group>"; };
+		A63CDFA722CDD98800F1A9AA /* LMPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMPickerManager.h; path = TBFormFactory/Classes/LMPickerManager.h; sourceTree = "<group>"; };
+		A63CDFD922CF18AC00F1A9AA /* LMTimeDateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMTimeDateManager.m; path = TBFormFactory/Classes/LMTimeDateManager.m; sourceTree = "<group>"; };
+		A63CDFDA22CF18AC00F1A9AA /* LMTimeDateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMTimeDateManager.h; path = TBFormFactory/Classes/LMTimeDateManager.h; sourceTree = "<group>"; };
 		A8377C0BFDE979499D00D9FCFA7CD2A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A999C0D14D82627715B3B8C1C1106CB3 /* TBTopPagesController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBTopPagesController-dummy.m"; sourceTree = "<group>"; };
 		AC21BC598885D54F153614A2F8D1202B /* Pods-TBFormFactory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBFormFactory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AE2728BF1857C71F34BB133C6E32AC3E /* TBFormFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TBFormFactory.framework; path = TBFormFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF3F3F53A980FD8AA68ACD998FDF1F67 /* UIView+WPDrawLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WPDrawLine.h"; path = "TBFormFactory/Classes/UIView+WPDrawLine.h"; sourceTree = "<group>"; };
+		AE2728BF1857C71F34BB133C6E32AC3E /* TBFormFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBFormFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7D86305A9F5C82A04E669E2340EA4F /* Pods-TBFormFactory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBFormFactory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B03B7647E0DC670031A9CC446912522A /* Pods-TBFormFactory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBFormFactory_Example.modulemap"; sourceTree = "<group>"; };
 		B4F701896B966022C4A1F9D7A474CB66 /* BaseRowFormItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseRowFormItem.h; path = TBFormFactory/Classes/BaseRowFormItem.h; sourceTree = "<group>"; };
 		B6EFDA64D487D9FA52353690010531B7 /* TBTopMainController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBTopMainController.m; path = TBTopPagesController/Classes/TBTopMainController.m; sourceTree = "<group>"; };
 		B722023453A51454EA9D61A88082322A /* Pods-TBFormFactory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBFormFactory_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BB0A72B2818EC087C62701AF993B2638 /* BaseRowFormer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseRowFormer.m; path = TBFormFactory/Classes/BaseRowFormer.m; sourceTree = "<group>"; };
-		CA2BE70222748CB0A0C3891F946AA25B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CB046AEF4168F7AA62DD82D898FFD4EA /* Pods_TBFormFactory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBFormFactory_Example.framework; path = "Pods-TBFormFactory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2BE70222748CB0A0C3891F946AA25B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CB046AEF4168F7AA62DD82D898FFD4EA /* Pods_TBFormFactory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBFormFactory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9A6F423E4E216C79F7822706ACD8D1 /* Pods-TBFormFactory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBFormFactory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CDD60784E789D7547138AC6A06DCBA55 /* Pods_TBFormFactory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBFormFactory_Tests.framework; path = "Pods-TBFormFactory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD60784E789D7547138AC6A06DCBA55 /* Pods_TBFormFactory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBFormFactory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CD9F675ACB12C00CD6655EE7C1C5EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4D3F0CD8DE704EE2AD24738B48F1C06 /* Pods-TBFormFactory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBFormFactory_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D95B7BB511A411A368454F6E6B81EC73 /* TBFormFactory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBFormFactory.modulemap; sourceTree = "<group>"; };
 		DA0C1AA2B7E4C35EED42808775A8CF2B /* Pods-TBFormFactory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBFormFactory_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DAB70CE24E74C45794A81D723F0D19F6 /* Pods-TBFormFactory_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBFormFactory_Tests-resources.sh"; sourceTree = "<group>"; };
 		DB7C8BA5DDE0B14A3DE7ACB98ACE2A57 /* TBTopPagesController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBTopPagesController-umbrella.h"; sourceTree = "<group>"; };
-		E72A3D410EEBA684D978DE9FF6F59901 /* UIView+WPCoordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WPCoordinate.h"; path = "TBFormFactory/Classes/UIView+WPCoordinate.h"; sourceTree = "<group>"; };
 		E9D3B9A5509D9F07C3259761A0851C91 /* TBTopPagesController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBTopPagesController.modulemap; sourceTree = "<group>"; };
-		F1371B2A0D4B0746D7B71FC7D883BD85 /* UILabel+WPAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+WPAdd.m"; path = "TBFormFactory/Classes/UILabel+WPAdd.m"; sourceTree = "<group>"; };
 		F32A599CBC065FE551E398BCFEB54145 /* Pods-TBFormFactory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBFormFactory_Tests-dummy.m"; sourceTree = "<group>"; };
-		F35A816699FBDBCC39140797F95A6CEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F35A816699FBDBCC39140797F95A6CEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F6023ADA4C9BF251B576CC8E4A460258 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TBTopPagesController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		FC01DB49D582A7AA1941CD318BF86D63 /* TBTopPagesController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TBTopPagesController.framework; path = TBTopPagesController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC01DB49D582A7AA1941CD318BF86D63 /* TBTopPagesController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBTopPagesController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +171,6 @@
 				B6EFDA64D487D9FA52353690010531B7 /* TBTopMainController.m */,
 				98267C1BFE09A247E263E6E71CF853DE /* Support Files */,
 			);
-			name = TBTopPagesController;
 			path = TBTopPagesController;
 			sourceTree = "<group>";
 		};
@@ -294,17 +289,15 @@
 		F8AA8702F98BD79D8EFCBBFB5E797FBC /* TBFormFactory */ = {
 			isa = PBXGroup;
 			children = (
+				A63CDFDA22CF18AC00F1A9AA /* LMTimeDateManager.h */,
+				A63CDFD922CF18AC00F1A9AA /* LMTimeDateManager.m */,
+				A63CDFA722CDD98800F1A9AA /* LMPickerManager.h */,
+				A63CDFA622CDD98800F1A9AA /* LMPickerManager.m */,
 				97BC8F6B7ECCC7A785F625257DA1F0D3 /* BaseRowFormer.h */,
 				BB0A72B2818EC087C62701AF993B2638 /* BaseRowFormer.m */,
 				B4F701896B966022C4A1F9D7A474CB66 /* BaseRowFormItem.h */,
 				3AFEDC96C89D19BC13C606DF0CAE1DAE /* BaseRowFormItem.m */,
 				994E23BFCB57BCD435BDDBD2A19CA287 /* ReplaceMe.m */,
-				4AADAF04C61BE70022873B410B1A6B91 /* UILabel+WPAdd.h */,
-				F1371B2A0D4B0746D7B71FC7D883BD85 /* UILabel+WPAdd.m */,
-				E72A3D410EEBA684D978DE9FF6F59901 /* UIView+WPCoordinate.h */,
-				876BE4A1EC94E64BD483374E2B1B8F3D /* UIView+WPCoordinate.m */,
-				AF3F3F53A980FD8AA68ACD998FDF1F67 /* UIView+WPDrawLine.h */,
-				02008D150E61D59AB39F9ECB929EE315 /* UIView+WPDrawLine.m */,
 				CED8EAE233A0DEB79DE11683D045FA1C /* Pod */,
 				9B89AF4EEB4970C9613CB94914A2D15E /* Support Files */,
 			);
@@ -348,9 +341,8 @@
 				00DE375F9087F63AE34AA5086CC142A4 /* BaseRowFormer.h in Headers */,
 				4D181B6E497AB37EF07FF6E3D651A908 /* BaseRowFormItem.h in Headers */,
 				E7B2BF053E23AEBF81A65B28F70EE31B /* TBFormFactory-umbrella.h in Headers */,
-				9C66C9B49A7992FBA7D3CBE6341BE771 /* UILabel+WPAdd.h in Headers */,
-				5583CD52F56AA763DEACA0DC52BF6424 /* UIView+WPCoordinate.h in Headers */,
-				9AECBD32C2EAD659846C1CA43D8190C3 /* UIView+WPDrawLine.h in Headers */,
+				A63CDFDC22CF18AC00F1A9AA /* LMTimeDateManager.h in Headers */,
+				A63CDFA922CDD98800F1A9AA /* LMPickerManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +452,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -503,9 +496,8 @@
 				3F8A5CD6F15354B67BA797EDA2B52C19 /* BaseRowFormItem.m in Sources */,
 				BD85DC8F50CCFE23267D1EFA1A70BAEC /* ReplaceMe.m in Sources */,
 				2987633337B0AB29F7CDC1C9DED315B2 /* TBFormFactory-dummy.m in Sources */,
-				419A3079DD47C1657EA643EDC2C6B808 /* UILabel+WPAdd.m in Sources */,
-				20ADBB9FFBAF70A1CDCDC6841792F17B /* UIView+WPCoordinate.m in Sources */,
-				206C1E105D03DB98E3DF3660A7E2DF6A /* UIView+WPDrawLine.m in Sources */,
+				A63CDFA822CDD98800F1A9AA /* LMPickerManager.m in Sources */,
+				A63CDFDB22CF18AC00F1A9AA /* LMTimeDateManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

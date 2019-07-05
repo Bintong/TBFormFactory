@@ -1,14 +1,14 @@
 //
-//  UIView+WPCoordinate.h
-//  BMWorkVisitor_Example
+//  UIView+BMWCoordinate.h
+//  BMWorkPlatformCategory
 //
-//  Created by BinTong on 2018/5/7.
-//  Copyright © 2018年 yaxun_123@163.com. All rights reserved.
+//  Created by BinTong on 2018/6/28.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (WPCoordinate)
+@interface UIView (BMWCoordinate)
+
 
 @property (nonatomic) CGFloat left;
 
@@ -34,8 +34,4 @@
 
 @property (nonatomic) CGFloat bottomToSuper;
 
-
-
-    
-    
 @end

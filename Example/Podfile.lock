@@ -1,5 +1,7 @@
 PODS:
-  - TBFormFactory (0.1.0)
+  - TBFormFactory (0.1.0):
+    - TBToolCategory
+  - TBToolCategory (0.1.0)
   - TBTopPagesController (0.1.2)
 
 DEPENDENCIES:
@@ -8,6 +10,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - TBToolCategory
     - TBTopPagesController
 
 EXTERNAL SOURCES:
@@ -15,9 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TBFormFactory: 9376e31a4c6f3ad3aa015897f94e4cad9f26396d
+  TBFormFactory: 02644a3adc34b1dd643e9b75604678aa742ecdf9
+  TBToolCategory: 369aae90885345bfae5f8d746d5834717a844f28
   TBTopPagesController: 4b6e9aef397a3b0f08f9fa08b38f1d4c855e1598
 
 PODFILE CHECKSUM: 369cd2d74ae4c1935fd70d07950d60265100decd
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.0

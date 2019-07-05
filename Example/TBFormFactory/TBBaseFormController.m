@@ -45,6 +45,9 @@
     
     BaseRowFormItem *companyView = [BaseRowFormer buildNormalText:@"公司" placeHolder:@"请输入公司名称" target:self];
     [self.views addObject:companyView];
+    //地址
+    BaseRowFormItem *addressView = [BaseRowFormer buildNormalText:@"地址" placeHolder:@"请输入地址" target:self];
+    [self.views addObject:addressView];
     
     BaseRowFormer *former =  [BaseRowFormer sharedBaseRowFormer];
     former.line_leftOffSet = 0;
@@ -61,10 +64,7 @@
     
     
     [self.views addObject:infoLabel_3];
-    
-    BaseRowFormItem *xz = [BaseRowFormer buildXZTextLabel:nil subLabel:nil target:self];
-    [self.views addObject:xz];
-
+ 
     
 }
 

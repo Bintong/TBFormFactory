@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TBFormFactory/Classes/**/*"
+  "source_files": "TBFormFactory/Classes/**/*",
+  "dependencies": {
+    "TBToolCategory": [
+
+    ]
+  }
 }

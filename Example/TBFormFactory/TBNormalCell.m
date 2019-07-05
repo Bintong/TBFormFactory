@@ -3,7 +3,7 @@
 //  TBFormFactory_Example
 //
 //  Created by BinTong on 2019/1/20.
-//  Copyright © 2019 https://github.com/Bintong/TBCoreAnimation.git. All rights reserved.
+//  Copyright © 2019 . All rights reserved.
 //
 
 #import "TBNormalCell.h"

@@ -12,6 +12,7 @@
 
 #import "BaseRowFormer.h"
 #import "BaseRowFormItem.h"
+#import "LMPickerManager.h"
 #import "UILabel+WPAdd.h"
 #import "UIView+WPCoordinate.h"
 #import "UIView+WPDrawLine.h"
