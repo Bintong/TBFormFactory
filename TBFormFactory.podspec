@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBFormFactory'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '表单逻辑方法实现'
 
 # This description is used to generate tags and improve search results.

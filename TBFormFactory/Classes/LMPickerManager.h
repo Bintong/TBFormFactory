@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "UILabel+WPAdd.h"
+
 
 @interface PickerChoiceView : UIView
 
