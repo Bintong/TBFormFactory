@@ -43,7 +43,7 @@ cell 不用考了，更多精力放在自定义View 上
 
 ### 不同高度View 展示
 
-![view1@2x](https://github.com/Bintong/TBFormFactory/blob/master/%E4%B8%8D%E5%90%8C%E6%A0%B7%E5%BC%8F.gif](https://github.com/Bintong/TBFormFactory/blob/master/不同样式.gif)
+![view1@2x](https://github.com/Bintong/TBFormFactory/blob/master/%E4%B8%8D%E5%90%8C%E6%A0%B7%E5%BC%8F.gif)
 
 ## Example
 
