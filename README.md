@@ -23,7 +23,7 @@ cell 不用考了，更多精力放在自定义View 上
 
 ## 简单结构
 
-![结构@2x](https://github.com/Bintong/TBFormFactory/blob/master/mindnode2%402x.png)
+![结构@2x](https://github.com/Bintong/TBFormFactory/blob/master/mindNode2%402x.png)
 
 对于**非列表**编写的步骤 不用 建立各种的cell
 
@@ -37,13 +37,13 @@ cell 不用考了，更多精力放在自定义View 上
 
 ### 1 信息填写
 
-![view1@2x]([https://github.com/Bintong/TBFormFactory/blob/master/%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%E5%A1%AB%E5%86%99.gif])
+![view1@2x](https://github.com/Bintong/TBFormFactory/blob/master/%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%E5%A1%AB%E5%86%99.gif)
 
 
 
 ### 不同高度View 展示
 
-![view1@2x]([https://github.com/Bintong/TBFormFactory/blob/master/%E4%B8%8D%E5%90%8C%E6%A0%B7%E5%BC%8F.gif](https://github.com/Bintong/TBFormFactory/blob/master/不同样式.gif))
+![view1@2x](https://github.com/Bintong/TBFormFactory/blob/master/%E4%B8%8D%E5%90%8C%E6%A0%B7%E5%BC%8F.gif](https://github.com/Bintong/TBFormFactory/blob/master/不同样式.gif)
 
 ## Example
 
