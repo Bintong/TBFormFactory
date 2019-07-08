@@ -21,19 +21,19 @@
 
 MVVM 非rac 结构
 
-cell 不用考了，更多精力放在自定义View 上
+cell 不用考虑，更多精力放在自定义View 上
 
 ## 简单结构
 
 ![结构@2x](https://github.com/Bintong/TBFormFactory/blob/master/mindNode2%402x.png)
 
-对于**非列表**编写的步骤 不用 建立各种的cell
+对于**非列表**编写的步骤 不用 new各种的cell
 
 而是用了viewManager 返回各种自定义view + viewsArray  + tableView（加载views）来加载
 
 ## 适合范围
 
-**非列表**页面 说要不是下拉的业务页面 
+**非列表**页面 所有不是下拉的业务页面 
 
 ## 预览
 
