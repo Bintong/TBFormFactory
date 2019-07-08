@@ -7,6 +7,7 @@
 //
 
 #import "LMPickerManager.h"
+#import "objc/runtime.h"
 
 #import "LMTimeDateManager.h"
 

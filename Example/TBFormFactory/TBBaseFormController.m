@@ -9,10 +9,10 @@
 #import "TBBaseFormController.h"
 #import "TBNormalCell.h"
 #import "BaseRowFormer.h"
-
+#import "BMWPCategory.h"
 //#define kScreenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
 //#define kScreenHeight CGRectGetHeight([UIScreen mainScreen].bounds)
-//#define getRectNavAndStatusHight  self.navigationController.navigationBar.frame.size.height+[[UIApplication sharedApplication] statusBarFrame].size.height
+#define getRectNavAndStatusHight  self.navigationController.navigationBar.frame.size.height+[[UIApplication sharedApplication] statusBarFrame].size.height
 
 
 @interface TBBaseFormController ()<UITableViewDelegate,UITableViewDataSource>
@@ -60,8 +60,6 @@
     
     former.line_leftOffSet = 1;
     BaseRowFormItem *infoLabel_3 = [BaseRowFormer buildNormalTextLabel:@"完成" subLabel:@"已经完成" target:self];
-    
-    
     
     [self.views addObject:infoLabel_3];
  

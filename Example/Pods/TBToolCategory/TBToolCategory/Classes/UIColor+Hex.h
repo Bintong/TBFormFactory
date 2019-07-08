@@ -31,10 +31,50 @@
 #define W_COLOR_LINE [UIColor colorHexString:@"dcdcdc"]
 #define W_COLOR_PICKER [UIColor colorHexString:@"ececec"]
 
+
+typedef NS_ENUM(NSInteger, SDGradientChangeDirection) {
+    SDGradientChangeDirectionLevel,
+    SDGradientChangeDirectionVertical,
+    SDGradientChangeDirectionUpwardDiagonalLine,
+    SDGradientChangeDirectionDownDiagonalLine,
+};
+
 @interface UIColor (Hex)
 
 + (UIColor *)colorHexString:(NSString *)hex;
 
 + (UIColor *)colorHexString:(NSString *)hex alpha:(CGFloat)alpha;
+
+
++ (UIColor *)sd_colorWithHex:(UInt32)hex;
++ (UIColor *)sd_colorWithHex:(UInt32)hex andAlpha:(CGFloat)alpha;
++ (UIColor *)sd_colorWithHexString:(NSString *)hexString;
+- (NSString *)sd_HEXString;
+///值不需要除以255.0
++ (UIColor *)sd_colorWithWholeRed:(CGFloat)red
+                            green:(CGFloat)green
+                             blue:(CGFloat)blue
+                            alpha:(CGFloat)alpha;
+///值不需要除以255.0
++ (UIColor *)sd_colorWithWholeRed:(CGFloat)red
+                            green:(CGFloat)green
+                             blue:(CGFloat)blue;
+
++ (CAGradientLayer *)setGradualChangingColor:(UIView *)view fromColor:(UIColor *)fromHexColorStr toColor:(UIColor *)toHexColorStr;
+
+
+/**
+ 渐变色
+
+ @param size size
+ @param direction dirction
+ @param startcolor start color
+ @param endColor end color
+ @return color
+ */
++ (instancetype)sd_colorGradientChangeWithSize:(CGSize)size
+                                     direction:(SDGradientChangeDirection)direction
+                                    startColor:(UIColor *)startcolor
+                                      endColor:(UIColor *)endColor;
 
 @end

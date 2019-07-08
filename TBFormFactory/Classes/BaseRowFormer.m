@@ -7,12 +7,9 @@
 
 #import "BaseRowFormer.h"
 #import "UILabel+WPAdd.h"
-#import "UIView+WPCoordinate.h"
-#import "UIView+WPDrawLine.h"
+
 #import "LMPickerManager.h"
-#define kScreenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
-#define kScreenHeight CGRectGetHeight([UIScreen mainScreen].bounds)
-#define TBColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 
 @implementation BaseRowFormer
 
@@ -39,7 +36,7 @@
         _rowBackgroundColor = [UIColor whiteColor];
         _showLine = YES;
         _line_leftOffSet = 50;
-        _bottomLineColor = TBColorFromRGB(0xE1E6ED);
+        _bottomLineColor = [UIColor colorHexString:@"0xE1E6ED"];
     }
     return self;
 } 
@@ -70,7 +67,7 @@
     [item addSubview:contentField];
 
     if (former.line_leftOffSet > 0) {
-        [item bottomLineX:former.line_leftOffSet width:(kScreenWidth - former.line_leftOffSet) color:TBColorFromRGB(0xe1e6ed)];
+        [item bottomLineX:former.line_leftOffSet width:(kScreenWidth - former.line_leftOffSet) color:[UIColor colorHexString:@"e1e6ed"]];
     }
     
     return item;
@@ -95,9 +92,9 @@
     [item addSubview:subLabel];
     
     if (former.line_leftOffSet > 0) {
-        [item bottomLineX:former.line_leftOffSet width:(kScreenWidth - former.line_leftOffSet) color:TBColorFromRGB(0xe1e6ed)];
+        [item bottomLineX:former.line_leftOffSet width:(kScreenWidth - former.line_leftOffSet) color:[UIColor colorHexString:@"e1e6ed"]];
     } else {
-        [item bottomLineX:15 width:(kScreenWidth - 30) color:TBColorFromRGB(0xe1e6ed)];
+        [item bottomLineX:15 width:(kScreenWidth - 30) color:[UIColor colorHexString:@"e1e6ed"]];
 
     }
 
