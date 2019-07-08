@@ -11,13 +11,39 @@
 
 如图
 
-![mindnode@2x](/Users/tongbin/Documents/GitHub/TBFormFactory/mindnode@2x.png)
+![mindnode@2x](https://github.com/Bintong/TBFormFactory/blob/master/mindnode%402x.png)
 
 # 介绍
 
-简化非列表类型的UI编写步骤，节省 开发维护成本，减少iOS 一个项目中的维护人员。
+简化**非列表**类型的UI编写步骤，节省 开发维护成本，减少iOS 一个项目中的维护人员。
 
-MVVM 中
+MVVM 非rac 结构
+
+cell 不用考了，更多精力放在自定义View 上
+
+## 简单结构
+
+![结构@2x](https://github.com/Bintong/TBFormFactory/blob/master/mindnode2%402x.png)
+
+对于**非列表**编写的步骤 不用 建立各种的cell
+
+而是用了viewManager 返回各种自定义view + viewsArray  + tableView（加载views）来加载
+
+## 适合范围
+
+**非列表**页面 说要不是下拉的业务页面 
+
+## 预览
+
+### 1 信息填写
+
+![view1@2x]([https://github.com/Bintong/TBFormFactory/blob/master/%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%E5%A1%AB%E5%86%99.gif])
+
+
+
+### 不同高度View 展示
+
+![view1@2x]([https://github.com/Bintong/TBFormFactory/blob/master/%E4%B8%8D%E5%90%8C%E6%A0%B7%E5%BC%8F.gif](https://github.com/Bintong/TBFormFactory/blob/master/不同样式.gif))
 
 ## Example
 
@@ -36,7 +62,7 @@ pod 'TBFormFactory'
 
 ## Author
 
-https://github.com/Bintong/TBCoreAnimation.git, bin.tong@bitmain.com
+yaxun_123@163.com tongbinapp@gmail.com
 
 ## License
 
