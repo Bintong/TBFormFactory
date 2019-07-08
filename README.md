@@ -1,9 +1,12 @@
 # TBFormFactory
 
-
 [![Version](https://img.shields.io/cocoapods/v/TBFormFactory.svg?style=flat)](https://cocoapods.org/pods/TBFormFactory)
 [![License](https://img.shields.io/cocoapods/l/TBFormFactory.svg?style=flat)](https://cocoapods.org/pods/TBFormFactory)
 [![Platform](https://img.shields.io/cocoapods/p/TBFormFactory.svg?style=flat)](https://cocoapods.org/pods/TBFormFactory)
+
+
+
+![](https://github.com/Bintong/TBFormFactory/blob/master/WX20190708-134632.png)
 
 ## 前提
 
