@@ -8,7 +8,7 @@
 #import "BaseRowFormer.h"
 #import "UILabel+WPAdd.h"
 
-#import "LMPickerManager.h"
+
 
 
 @implementation BaseRowFormer
